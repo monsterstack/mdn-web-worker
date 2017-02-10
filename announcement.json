@@ -1,0 +1,8 @@
+{
+  "name": "WebWorker",
+  "region": "us-east-1",
+  "stage": "dev",
+  "version": "v1",
+  "schemaPath": "http://cloudfront.myschemas.com/worker/web.json",
+  "docsPath": "http://cloudfront.mydocs.com/worker/web"
+}
