@@ -7,8 +7,8 @@ const main = () => {
   console.log('Starting WEb Worker');
   let announcement = require('./announcement.json');
 
-  let worker = new Worker("SmsWorker", announcement, {
-    queue: "sms",
+  let worker = new Worker("WebWorker", announcement, {
+    queue: "websocket",
     redis: {
       host: config.redis.host,
       port: config.redis.port
