@@ -3,7 +3,7 @@ services:
   worker:
     build: .
     volumes:
-      - .:/code
+      - /code
     environment:
       - HOST_IP=${HOST_IP}
       - SERVICE_NAME=EmailWorker
